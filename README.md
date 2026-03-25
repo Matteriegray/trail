@@ -1,2 +1,2 @@
 # trail
-# Just the frontend part
+# Just a try to create an image processing site.

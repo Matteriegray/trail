@@ -25,7 +25,6 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 let img = new Image();
 
-// 📤 Upload Image
 document.getElementById("upload").addEventListener("change", (e) => {
     const file = e.target.files[0];
     if (!file) return;
@@ -39,7 +38,6 @@ document.getElementById("upload").addEventListener("change", (e) => {
     reader.readAsDataURL(file);
 });
 
-// 🖼️ Process Image
 document.getElementById("processBtn").addEventListener("click", processImage);
 
 function processImage() {
