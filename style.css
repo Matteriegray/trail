@@ -1,0 +1,110 @@
+/* 🌈 Background */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #fff;
+    text-align: center;
+}
+
+/* 🧊 Main Container */
+.container {
+    margin: 50px auto;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+/* 🏷️ Title */
+h1 {
+    margin-top: 30px;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+/* 🌐 Language Dropdown */
+#language {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* 📤 File Input */
+input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+}
+
+/* ⚙️ Dropdown */
+select {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+/* 🚀 Button */
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    background: linear-gradient(135deg, #ff7eb3, #ff758c);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+/* ✨ Button Hover */
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(255, 120, 150, 0.5);
+}
+
+/* 🖼️ Canvas */
+canvas {
+    margin-top: 30px;
+    max-width: 90%;
+    max-height: 300px;
+    border-radius: 15px;
+    border: 2px solid rgba(255,255,255,0.3);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
+
+/* 📱 Responsive */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+}
+
+#downloadBtn {
+    margin-top: 15px;
+    background: linear-gradient(135deg, #42e695, #3bb2b8);
+}
+
+#downloadBtn:hover {
+    box-shadow: 0 5px 15px rgba(66, 230, 149, 0.5);
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi Language Image Processor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="title">Image Processing Tool</h1>
+
+<select id="language">
+    <option value="en">English</option>
+    <option value="hi">Hindi</option>
+    <option value="kn">Kannada</option>
+</select>
+
+<div class="container">
+    <input type="file" id="upload">
+
+    <select id="operation">
+        <option value="grayscale">Grayscale</option>
+        <option value="invert">Invert</option>
+        <option value="brightness">Brightness</option>
+    </select>
+
+    <button id="processBtn">Process</button>
+</div>
+
+<canvas id="canvas"></canvas>
+
+<button id="downloadBtn">Download Image</button>
+
+
+<script src="script.js"></script>
+</body>
+</html>
